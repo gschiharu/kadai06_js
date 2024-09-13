@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('/img/5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+#service-selection {
+  display: flex;
+  justify-content: center; /* ボタンを横方向で中央揃え */
+  gap: 20px; /* ボタン同士の間隔を設定 */
+  margin-top: 20px; /* 上にスペースを追加 */
+}
+
+.service-button {
+  padding: 10px 20px;
+  background-color: #4a55b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.service-button:hover {
+  background-color: #656cb4;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.service-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#interpreter-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.interpreter {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.interpreter img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.show-details {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#profile-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#interpreter-photo {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#schedule {
+  margin-top: 20px;
+}
