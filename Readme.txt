@@ -5,13 +5,11 @@
 通訳者マッチングアプリ風
 
 
-
 ## ②課題内容（どんな作品か）
 ３つのサービスで通訳者を選ぶと、そのまま通訳者のスケジュールがわかる。Calendlyを埋め込んでみました。
 
-
 ## ③DEMO
-
+https://github.com/gschiharu/kadai06_js/deployments/github-pages
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
