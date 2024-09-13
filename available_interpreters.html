@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Interpreters</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Available Interpreters</h1>
+
+    <!-- Interpreter list -->
+    <div id="interpreter-list">
+        <div class="interpreter">
+            <img src="img/chiharu.jpg" alt="Chiharu" class="interpreter-img">
+            <h2>Chiharu</h2>
+            <p>Expert in business interpretation between English and Japanese.</p>
+            <button class="show-details" data-id="chiharu">View Details</button>
+        </div>
+
+        <div class="interpreter">
+            <img src="img/naoko.jpg" alt="Naoko" class="interpreter-img">
+            <h2>Naoko</h2>
+            <p>Specializes in technical interpretation for industrial negotiations.</p>
+            <button class="show-details" data-id="naoko">View Details</button>
+        </div>
+
+        <div class="interpreter">
+            <img src="img/maria.jpg" alt="Maria" class="interpreter-img">
+            <h2>Maria</h2>
+            <p>Experienced in legal and medical interpretations.</p>
+            <button class="show-details" data-id="maria">View Details</button>
+        </div>
+    </div>
+
+    <!-- Profile section -->
+    <div id="profile-container" style="display:none;">
+        <h2 id="interpreter-name"></h2>
+        <img id="interpreter-photo" src="" alt="Interpreter Photo" class="interpreter-img">
+        <p id="interpreter-description"></p>
+        
+        <h3>Schedule an Appointment</h3>
+        <div id="schedule"></div> <!-- Calendly widget will be embedded here -->
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
