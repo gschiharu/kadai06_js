@@ -9,7 +9,7 @@
 ３つのサービスで通訳者を選ぶと、そのまま通訳者のスケジュールがわかる。Calendlyを埋め込んでみました。
 
 ## ③DEMO
-https://github.com/gschiharu/kadai06_js/deployments/github-pages
+https://gschiharu.github.io/kadai06_js/
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
